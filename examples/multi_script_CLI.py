@@ -51,8 +51,8 @@ def setting_input():
     with open(setting, "w") as f:
         while True:
             print(
-                "How many likes do you want to do in a day? (enter to use default number: 1000)")
-            f.write(str(int(sys.stdin.readline().strip()or "1000")) + "\n")
+                "How many likes do you want to do in a day? (enter to use default number: 900)")
+            f.write(str(int(sys.stdin.readline().strip()or "900")) + "\n")
             print("How about unlike? (enter to use default number: 1000)")
             f.write(str(int(sys.stdin.readline().strip()or "1000")) + "\n")
             print(
